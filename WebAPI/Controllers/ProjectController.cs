@@ -69,6 +69,11 @@ namespace WebAPI.Controllers
         }
 
         // DELETE: api/Project/5
+        /// <summary>
+        /// Delete Project
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [ResponseType(typeof(Project))]
         public IHttpActionResult DeleteProject(int id)
         {
