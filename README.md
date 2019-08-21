@@ -8,4 +8,7 @@ Install-Package Microsoft.AspNet.WebApi.Cors
 
 # NuGet Command : Fix Version Compactability of Cors and Http
 Update-Package Microsoft.AspNet.WebApi -reinstall
+
 Install-Package Microsoft.AspNet.WebApi.Core
+//Test File Issue
+Install-Package Microsoft.AspNet.WebApi.Client -Version 5.2.7
